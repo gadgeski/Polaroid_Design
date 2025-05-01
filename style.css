@@ -1,0 +1,48 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =================================
+
+Card CSS
+
+================================= */
+
+.container {
+  width: 100%;
+  padding: 10rem 1rem;
+}
+
+li.item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+li.list {
+  width: 33.3%;
+  min-height: 300px;
+  margin-right: 2rem;
+}
