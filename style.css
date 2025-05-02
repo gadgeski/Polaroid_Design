@@ -111,3 +111,33 @@ li a.btn:hover {
   color: #ccebe6;
   background: #fff;
 }
+
+/* =========================================
+
+Smartphone
+
+========================================== */
+@media screen and (max-width: 956px) {
+  ul.item {
+    flex-wrap: wrap;
+    max-width: 420px;
+  }
+
+  ul.item li.list {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  li.list:last-child {
+    margin-bottom: 0;
+  }
+  /* サービス内容について */
+  ul.item li.list {
+    min-height: 380px;
+  }
+
+  ul.item li.list .image {
+    height: 200px;
+  }
+}
