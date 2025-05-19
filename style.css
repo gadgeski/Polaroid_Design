@@ -70,6 +70,7 @@ p.content {
 /* サービズ内容について */
 .service-container {
   background: url(./img/bg.png);
+  opacity: 0.8;
 }
 
 li.list {
